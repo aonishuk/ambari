@@ -163,7 +163,7 @@ def get_hdfs_cluster_id_from_jmx(hdfs_site, security_enabled, run_user):
 
       Logger.info("Cannot get clusterId from {0}".format(jmx_uri))
 
-  raise Fail("Cannot get clsuterId from jmx, since none of the namenodes is running/accessible via jmx.")
+  raise Fail("Cannot get clusterId from jmx, since none of the namenodes is running/accessible via jmx.")
 
 def _is_ha_config(hdfs_site):
   """
