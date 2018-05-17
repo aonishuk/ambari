@@ -1553,7 +1553,7 @@ class TestAlerts(TestCase):
           "https_property_value": "HTTPS_ONLY"
         },
         "jmx": {
-          "property_list": [
+          "propertyList": [
             "someJmxObject/value",
             "someOtherJmxObject/value"
           ],
@@ -1642,7 +1642,7 @@ class TestAlerts(TestCase):
           "https_property_value": "HTTPS_ONLY"
         },
         "jmx": {
-          "property_list": [
+          "propertyList": [
             "someJmxObject/value",
             "someOtherJmxObject/value"
           ],

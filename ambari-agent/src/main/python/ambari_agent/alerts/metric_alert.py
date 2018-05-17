@@ -285,7 +285,7 @@ def f(args):
 
   def __init__(self, jmx_info):
     self.custom_module = None
-    self.property_list = jmx_info['property_list']
+    self.property_list = jmx_info['propertyList']
     self.property_map = {}
 
     if 'value' in jmx_info:

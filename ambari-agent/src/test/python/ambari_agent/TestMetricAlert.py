@@ -40,7 +40,7 @@ class TestMetricAlert(TestCase):
     }
     alert_source_meta = {
       'jmx': {
-        'property_list': [
+        'propertyList': [
           'x/y'
         ]
       },
@@ -102,7 +102,7 @@ class TestMetricAlert(TestCase):
     }
     alert_source_meta = {
       'jmx': {
-        'property_list': [
+        'propertyList': [
           'x/y'
         ]
       },
@@ -165,7 +165,7 @@ class TestMetricAlert(TestCase):
     }
     alert_source_meta = {
       'jmx': {
-        'property_list': [
+        'propertyList': [
           'x/y'
         ]
       },
